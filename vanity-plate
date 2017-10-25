@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Based Car Number Plate</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style>
+    
+    .enjoy-css {
+  		-webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        content: ;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        padding: 45px;
+        outline: none;
+        border: none;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        font: normal 58px/0 Impact, Charcoal, sans-serif;
+        color: black;
+        text-decoration: none;
+        text-align: left;
+        text-indent: 0;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        letter-spacing: 20px;
+        white-space: normal;
+        word-spacing: 20px;
+        word-wrap: ;
+        -webkit-box-shadow: 0 0 40px 6px rgba(0,0,0,0.5) ;
+        box-shadow: 0 0 40px 6px rgba(0,0,0,0.5) ;
+	}
+    
+    .plate-box {
+        width: 450px;
+        height: 100px;
+        border: 3px solid Black;
+        box-sizing: border-box;
+        padding: 0px 0px 0px 0px;
+        border-radius: 13px; 
+        /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+        -webkit-box-shadow: 0 0 40px 6px rgba(0,0,0,0.5) ;
+        box-shadow: 0 0 40px 6px rgba(0,0,0,0.5) ;
+        padding: 0px;
+        
+    }
+    .badge-box {
+        height: 100%;
+        border: 0px  solid Black;
+        padding: 0px 0px 0px 0px;
+        border-bottom-left-radius: 10px;
+    	border-top-left-radius: 10px;
+        background-color: #4caf50;
+
+      
+    }
+    .number-box {
+		letter-spacing: 5px;
+        white-space: normal;
+        word-spacing: 10px;
+        word-wrap: ;
+        /*font-size: 34px;*/
+        font: normal 47px/2 Impact, Charcoal, sans-serif;
+        text-style: bold;
+        
+        padding-left: 20px;
+        border: 0px  solid Black;
+        /*padding: 0px 0px 0px 0px;*/
+        background: transparent;
+        text-indent: 0;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+      
+    }
+    
+    .badge-number-box {
+        letter-spacing: 5px;
+        white-space: normal;
+        word-spacing: 10px;
+        word-wrap: ;
+        font-size: 22px;
+        top: 30%;
+        padding-right: 1px;
+        padding-left: 10px;
+        font: normal 20px/2 Impact, Charcoal, sans-serif;
+        border-radius: 0px;
+        background: transparent;
+        border-right-top-radius: 10px;
+        border-left-bottom-radius: 10px;
+      
+    }
+    </style>
+</head>
+
+
+<body>
+
+<div class="container">       
+  <div id="bkplate" class="container">
+  	<div id="bkplate" class="row">
+    	<div class=" plate-box col-md-4">
+            <div class="badge-box col-sm-2" style="background-color:#4caf50;">
+              <img id="vbadge" src="" />
+            </div>
+            <div class="number-box col-sm-8" style="background-color:transparent;">
+              AAAA-9999   
+            </div>
+            <div class="badge-number-box col-sm-2" style="background-color:white;">
+              <div style="text-decoration: underline; line-height: 16px;">98</div>48    
+            </div>
+         </div>
+    </div>
+  </div>
+</div>
+    
+</body>
+</html>
