@@ -107,13 +107,13 @@
   <div id="bkplate" class="container">
   	<div id="bkplate" class="row">
     	<div class=" plate-box col-md-4">
-            <div class="badge-box col-sm-2" style="background-color:#4caf50;">
+            <div class="badge-box col-xs-2" style="background-color:#4caf50;">
               <img id="vbadge" src="" />
             </div>
-            <div class="number-box col-sm-8" style="background-color:transparent;">
+            <div class="number-box col-xs-8" style="background-color:transparent;">
               AAAA-9999   
             </div>
-            <div class="badge-number-box col-sm-2" style="background-color:transparent;">
+            <div class="badge-number-box col-xs-2" style="background-color:transparent;">
               <div style="text-decoration: underline; line-height: 16px;">98</div>48    
             </div>
          </div>
